@@ -1,5 +1,8 @@
- my goal is to master web engineering from scratch to end.
+My goal is to master Web Engineering from the ground up from the fundamentals to building production ready full-stack applications.
 
+I will consistently practice and improve these technologies to follow a structured learning path and strengthen my skills.
+
+Learning Roadmap
 - HTML
 - CSS
 - JavaScript
