@@ -2,7 +2,7 @@ My goal is to master Web Engineering from the ground up from the fundamentals to
 
 I will consistently practice and improve these technologies to follow a structured learning path and strengthen my skills.
 
-Learning Roadmap:
+**Learning Roadmap:**
 - HTML
 - CSS
 - JavaScript
