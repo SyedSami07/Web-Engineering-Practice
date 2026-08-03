@@ -1,6 +1,6 @@
-// function sayGreet(name){
-//     return `Hello ${name}, Good Morning.`
-// }
+function sayGreet(name){
+    return `Hello ${name}, Good Morning.`
+}
 
 
 const sayGreet = (name) => {
@@ -17,14 +17,14 @@ const sayHi = (name)=>{
 console.log(sayHi("Suhan"))
 
 
-// const arrowFunction = (a,b,c,...restNumbers)=> {
-//     let sum = 0;
-//     for(let number of restNumbers){
-//         sum+=number
-//     }
-//     return a+b+c+sum;
-// }
-// console.log(arrowFunction(10,20,30,40))
+const arrowFunction = (a,b,c,...restNumbers)=> {
+    let sum = 0;
+    for(let number of restNumbers){
+        sum+=number
+    }
+    return a+b+c+sum;
+}
+console.log(arrowFunction(10,20,30,40))
 
 const arrowFunction_2=(a,b,c,...rest)=>{
     let sum_2 = 0
@@ -35,3 +35,13 @@ const arrowFunction_2=(a,b,c,...rest)=>{
 }
 
 console.log(arrowFunction_2(1,2,3,4,10))
+
+
+const sayGreet = (name)=>`hello ${name}, good morning`
+console.log(sayGreet("sami"))
+
+
+const sumFirstThenMultiplateByThree = (a, b)=> (a+b)*3 
+
+    console.log(sumFirstThenMultiplateByThree(5,5))
+
