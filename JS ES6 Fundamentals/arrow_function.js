@@ -38,10 +38,23 @@ console.log(arrowFunction_2(1,2,3,4,10))
 
 
 const sayGreet = (name)=>`hello ${name}, good morning`
-console.log(sayGreet("sami"))
+// console.log(sayGreet("sami"))
 
 
 const sumFirstThenMultiplateByThree = (a, b)=> (a+b)*3 
 
     console.log(sumFirstThenMultiplateByThree(5,5))
 
+
+    console.log(this)
+
+
+    const student = {
+        name: "suhan",
+        age: 25,
+        showName: function(){
+            return `Name: ${this.name}, Age: ${this.age}`
+        }
+    }
+
+    console.log(student.showName())
