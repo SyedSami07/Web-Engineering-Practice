@@ -1,5 +1,5 @@
 // kono ekta inner funcion (nested) outer scope theke access kortese, that is closure.
-// ei jinisher name hocche : lexical scope, and behavior hocche closure.
+// ei jinisher name hocche : lexical scope, and behavior hocche closure
 
 function createCounter(){
     let counter = 0
